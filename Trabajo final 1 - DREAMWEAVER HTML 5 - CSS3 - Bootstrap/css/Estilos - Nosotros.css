@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------Fuentes------------------------------------*/
+
+@font-face{
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Bitter";
+	src: url("../fonts/Bitter-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Bitter";
+	font-weight: bold;
+	src: url("../fonts/Bitter-Bold.ttf");
+}
+
+/*----------------------Estilos básicos----------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 70%;
+	object-fit: cover;
+	margin: auto;
+}
+
+h1, h2,h3, h4, h5, h6{
+	margin: 0;
+}
+
+h1, h2, a{
+	font-family:"Pacifico", sans-serif;
+}
+
+h3, h4, h5, h6, figcaption{
+	font-family:"Bitter", sans-serif;
+}
+
+.container{
+	/*margin: auto;*/
+}
+
+.container-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+
+/*----------------------------Estilos Cabecera Principal---------------------*/
+
+.top-header {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+}
+
+.top-header h1{
+	font-size: 5em;
+	color:#3A0708;
+}
+
+/*---------------------------Estilos de Menu-----------------------*/
+
+.logo{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.navbar{
+	background-color:#2E2929;
+	transition: all 0.3;
+	font-size: 1.5em;
+	padding: 50px 0;
+}
+
+.navbar-brand{
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.navbar-dark .navbar-brand{
+	color:#1F1D1D; 
+}
+
+.nav-item{
+	font-weight: 500;
+	padding-left: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#D1D0D0;
+}
+
+/*--------------------------Estilo Principal   -----------------------*/
+
+.Principal{
+	position: relative;
+	background: url("../Img/Preparation.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0 200px;
+}
+
+.Principal h2{
+	margin:20px;
+	font-size:3em;
+	color:#024553;
+	text-align: center;
+	background: #191616;
+	border-radius: 20%;
+}
+
+.Principal p{
+	margin-top:0;
+	padding:20px;
+	font-size:1.5em;
+	color:wheat;
+	background: #191616;
+	border-radius: 2%;
+	text-align: justify;
+}
+
+/*--------------------------Estilo Footer-----------------------*/
+
+.main-footer{
+	background-color: #2E2929;
+	color: #D1D0D0;
+	padding-top: 25px;
+}
+
+.main-footer h3{
+	text-align: justify;
+}
+
+.main-footer span{
+	text-align:center;
+}
+
+.copyr{
+	padding-top: 25px;
+	text-align: center;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+
